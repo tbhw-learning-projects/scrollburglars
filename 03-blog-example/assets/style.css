@@ -144,6 +144,10 @@ a {
   .social-icons {
     display: none;
   }
+  /* When we drop the social icons, it's safe to apply the overflow constraint */
+  main {
+    overflow: hidden;
+  }
 }
 
 .heading-decoration {
